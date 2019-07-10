@@ -42,10 +42,6 @@
     python fairy_land_generator.py
   ##### config files&terminal inteface will be added...
 
-#### 2. Poems Generator:
-##### token-based language model with LSTM (PyTorch)
-   ###### in progress
-    
 
    
 
