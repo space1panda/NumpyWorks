@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="copying np_projects to separated repo">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="test_changes">
+      <change afterPath="$PROJECT_DIR$/datasources/simple_array_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/simple_LinReg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/numpy_nns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/numpy_nns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/npl_lang_models/dinos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dinos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/npl_lang_models/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/charutils_np.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/utils_np.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +44,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../keras_and_tf" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/trainers" />
       <recent name="$PROJECT_DIR$/datasources" />
@@ -55,28 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fairy_land_generator">
-    <configuration name="RAW_char_trainer_np" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="numpy_nns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainers/generic_trainer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.simple_array_gen">
     <configuration name="fairy_land_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,27 +90,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_country" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="numpy_nns" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch_exp/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inferences" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inferences/generate_name.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="raw_datasource" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,6 +103,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasources/name_datasource.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_LinReg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="numpy_nns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/pytorch/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/simple_LinReg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_array_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="numpy_nns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasources" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasources/simple_array_gen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,19 +175,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RAW_char_trainer_np" />
       <item itemvalue="Python.fairy_land_generator" />
-      <item itemvalue="Python.generate_country" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.raw_datasource" />
+      <item itemvalue="Python.simple_LinReg" />
+      <item itemvalue="Python.simple_array_gen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.simple_array_gen" />
+        <item itemvalue="Python.simple_LinReg" />
         <item itemvalue="Python.fairy_land_generator" />
         <item itemvalue="Python.raw_datasource" />
         <item itemvalue="Python.tests" />
-        <item itemvalue="Python.RAW_char_trainer_np" />
-        <item itemvalue="Python.generate_country" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562733894971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_changes">
+      <created>1564683840601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564683840601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test_changes">
+      <created>1564684220260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564684220260</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -249,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="copying np_projects to separated repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="copying np_projects to separated repo" />
+    <MESSAGE value="test_changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

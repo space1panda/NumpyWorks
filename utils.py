@@ -32,7 +32,7 @@ def initialize_parameters(hidden_size, vocab_size):
     return parameters
 
 
-def update_parameters_clean_lr(parameters, gradients, lr):
+def update_parameters_sgd(parameters, gradients, lr):
     parameters['Wax'] -= lr * gradients['dWax']
     parameters['Waa'] -= lr * gradients['dWaa']
     parameters['Wya'] -= lr * gradients['dWya']
@@ -98,5 +98,11 @@ def stride_set(data, seq_len, step, copy = False):
         return view.copy()
     else:
         return view
+
+def mse(y, activation):
+    return (np.power((y.flatten()-activation), 2)).mean()
+
+def simple_params_init():
+    return [np.random.rand(1), 0]
 
 
