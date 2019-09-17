@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="test_changes">
-      <change afterPath="$PROJECT_DIR$/datasources/simple_array_gen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/simple_LinReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/numpy_nns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/numpy_nns.iml" afterDir="false" />
+    <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/npl_lang_models/dinos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/dinos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/npl_lang_models/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/charutils_np.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils_np.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/simple_LinReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/simple_LinReg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_array_gen">
+  <component name="RunManager" selected="Python.simple_LinReg">
     <configuration name="fairy_land_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +176,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.simple_array_gen" />
         <item itemvalue="Python.simple_LinReg" />
+        <item itemvalue="Python.simple_array_gen" />
         <item itemvalue="Python.fairy_land_generator" />
         <item itemvalue="Python.raw_datasource" />
         <item itemvalue="Python.tests" />
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564684220260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Simple Linear Regression Module">
+      <created>1568609778894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568609778895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -277,7 +277,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="copying np_projects to separated repo" />
     <MESSAGE value="test_changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_changes" />
+    <MESSAGE value="added Simple Linear Regression Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Simple Linear Regression Module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

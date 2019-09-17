@@ -102,7 +102,7 @@ def stride_set(data, seq_len, step, copy = False):
 def mse(y, activation):
     return (np.power((y.flatten()-activation), 2)).mean()
 
-def simple_params_init():
-    return [np.random.rand(1), 0]
+def linearparams_init(num_params=1):
+    return np.random.rand(num_params), 0
 
 
