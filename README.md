@@ -1,9 +1,9 @@
 # NumPy Works
 
-### The library contains my works on ml/dl with Python3 using pure numpy:
+### The library contains my works on ml/dl with Python3 using vectorization with numpy:
 #
 
-  
+ 
   
 ##### ASSETS - contains data sets for various model trainings
   
