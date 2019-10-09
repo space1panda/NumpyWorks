@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasources/lin_datagen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/lin_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/lin_model.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/linear_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainers/linreg_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/data_transforming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/initers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/optimizers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/numpy_nns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/numpy_nns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/simple_LinReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/simple_LinReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/chardatasource.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/dataloader_np.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/simple_array_gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/fairy_land_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/charmodel_np.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/simple_LinReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/LinReg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/batchloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainers/char_trainer_np.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keras_and_tf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../numpy_nns/model_testing.png" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -61,8 +86,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_LinReg">
-    <configuration name="fairy_land_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.linear_regression">
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/namegen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/linear_regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="raw_datasource" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="linreg_trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasources/name_datasource.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainers/linreg_trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/simple_LinReg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/LinReg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="simple_array_gen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasources" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasources/simple_array_gen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="numpy_nns" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +179,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,19 +193,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.fairy_land_generator" />
-      <item itemvalue="Python.tests" />
-      <item itemvalue="Python.raw_datasource" />
       <item itemvalue="Python.simple_LinReg" />
-      <item itemvalue="Python.simple_array_gen" />
+      <item itemvalue="Python.linear_regression" />
+      <item itemvalue="Python.linreg_trainer" />
+      <item itemvalue="Python.testing" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linear_regression" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.linreg_trainer" />
         <item itemvalue="Python.simple_LinReg" />
-        <item itemvalue="Python.simple_array_gen" />
-        <item itemvalue="Python.fairy_land_generator" />
-        <item itemvalue="Python.raw_datasource" />
-        <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568609778895</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating Simple Linear Regression Module">
+      <created>1568698011029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568698011029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -278,7 +310,8 @@
     <MESSAGE value="copying np_projects to separated repo" />
     <MESSAGE value="test_changes" />
     <MESSAGE value="added Simple Linear Regression Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Simple Linear Regression Module" />
+    <MESSAGE value="updating Simple Linear Regression Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating Simple Linear Regression Module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

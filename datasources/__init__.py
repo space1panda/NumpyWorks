@@ -1,1 +1,0 @@
-from .chardatasource import CharDatasource

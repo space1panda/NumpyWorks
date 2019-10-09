@@ -1,0 +1,16 @@
+{"transfer":false,
+ "load_path":"",
+ "save_path":"lin_model.pickle",
+ "poly_level" : 200,
+ "dataloader":{"ds_len": 500,
+              "bs": 20,
+              "test_split" : 0.1,
+              "valid_split": 0.1
+              },
+ "trainer":{"lr" : 0.0001,
+            "num_epochs" : 1000,
+            "each" :100,
+            "decay_rate" : 1
+           }
+
+}
