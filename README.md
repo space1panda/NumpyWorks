@@ -33,15 +33,15 @@ and update lambda functions;
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/model_big.png)
 ##### Figure 2: 
 *Even though we are using absolutely same data distribution for test set, regression is getting worse at actual predicting as we increase the amount of fed data (amount of features).* 
-*This indicates that the linear approach for n-feature datasets is not effective enough to generalize on big data. We might need to add non-linearity level to hypothesis calculation to normalize our data better, which makes total sense for applying basic feed forward neural network with 1+ non-linear levels*
+*This indicates that the linear approach for n-feature datasets is not effective enough to generalize on big data. We might need to add more "layers" of hypothesis calculation to normalize our data better, which makes total sense for applying basic feed forward neural network with 1+ non-linear levels*
 
 #
 ###### Next version:
 
 - Run training from docker image;
 - Datasource object to train solution with real datasets;
-- Using feedforward Neural Net as an alternative model;
+- Using feedforward deep Neural Net as an alternative model;
 #
 #
 
-#### 2. Logistic Regression w/wo Neural levels
+#### 2. Logistic Regression w/wo deep Neural levels
