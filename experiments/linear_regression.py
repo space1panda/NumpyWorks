@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import json
 import argparse
 import pickle
-from models.LinReg import LinearRegression
+from models.single import LinearRegression
 from datasources.batchloader import BatchLoader
 from trainers.linreg_trainer import LinearTrainer
 from utils.initers import init_lin

@@ -2,34 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasources/lin_datagen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiments/lin_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiments/lin_model.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiments/linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainers/linreg_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_transforming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/initers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/optimizers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/numpy_nns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/numpy_nns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiments/log_regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/misc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/chardatasource.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/dataloader_np.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/simple_array_gen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/fairy_land_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/charmodel_np.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/simple_LinReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/LinReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/batchloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainers/char_trainer_np.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/batchloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/batchloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/lin_datagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/datagen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/lin_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/lin_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/lin_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/lin_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/LinReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainers/linreg_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/linreg_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data_transforming.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_transforming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/initers.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/initers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/optimizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/optimizers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/LinReg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/single.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,17 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1568698011029</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- Polynomial Regression solution added 1.0">
+      <created>1570632742542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570632742542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -306,12 +293,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="copying np_projects to separated repo" />
     <MESSAGE value="test_changes" />
     <MESSAGE value="added Simple Linear Regression Module" />
     <MESSAGE value="updating Simple Linear Regression Module" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating Simple Linear Regression Module" />
+    <MESSAGE value="- Polynomial Regression solution added 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Polynomial Regression solution added 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
