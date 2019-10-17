@@ -24,7 +24,7 @@ and update lambda functions;
     -p - run with Matplot graphs (ex. -p true)       
 
 #
-![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg_fixed.png)
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
 ##### Figure 1: Exemplary Results
 
 ###### Next version:
