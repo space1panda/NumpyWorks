@@ -44,4 +44,7 @@ and update lambda functions;
 #
 #
 
-#### 2. Logistic Regression w/wo deep Neural levels
+#### 2. Logistic Regression w/wo deep Neural levels:
+
+###### Solving linear classification problem on generated/real data using single perceptron / deep learning model with sigmoid ###### activation.
+
