@@ -25,7 +25,7 @@ and update lambda functions;
 
 #
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
-##### Figure 1: Exemplary Results
+##### Figure 1: Exemplary Results - overfitting with higher order polynoms issue. 
 
 ###### Next version:
 
