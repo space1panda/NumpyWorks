@@ -26,7 +26,7 @@ and update lambda functions;
 #
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg2.png)
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
-##### Figure 1: Exemplary Results - overfitting with higher order polynoms issue. 
+##### Figure 1: Exemplary Results - n-feature polynoms issue. Even though the model trained successfully, it cannot generalize effective enough accross all feature sets 
 
 ###### Next version:
 
