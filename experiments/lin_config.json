@@ -2,13 +2,13 @@
  "load_path":"",
  "save_path":"lin_model.pickle",
  "poly_level" : 200,
- "dataloader":{"ds_len": 500,
+ "dataloader":{"ds_len": 5000,
               "bs": 20,
               "test_split" : 0.1,
               "valid_split": 0.1
               },
  "trainer":{"lr" : 0.0001,
-            "num_epochs" : 1000,
+            "num_epochs" : 10000,
             "each" :1000,
             "decay_rate" : 1
            }

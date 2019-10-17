@@ -6,4 +6,4 @@ def batch_gen(x, y, bs):
         yield x[mb*bs:mb*bs+bs], y[mb*bs:mb*bs+bs]
 
 lin_formula_input = lambda x: np.linspace(1.0, 7.0, x)[:, np.newaxis]
-lin_formula_output = lambda x: np.cos(x) + 0.1 * np.power(x, 2) + 0.5 * np.random.randn(len(x), 1)
+lin_formula_output = lambda x: np.power(x, 0.5) - 0.5*np.sin(x) - np.power(x, 0.2) + 0.3*np.random.randn(len(x),1)

@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import json
 import argparse
 import pickle
+import numpy as np
 from models.single import LinearRegression
 from datasources.batchloader import BatchLoader
 from trainers.linreg_trainer import LinearTrainer
@@ -45,10 +46,10 @@ def main(config, ext_args):
         plt.title(f"Error Optimization , Test Error: {trainer.test_model()}")
 
         plt.figure(3)
-        plt.plot(dataloader.data_x[:, 1], dataloader.data_x.dot(model.params), c='g', label='Model')
-        plt.scatter(dataloader.train_x[:, 1], dataloader.train_y, c='y', label='Train Set')
-        plt.scatter(dataloader.valid_x[:, 1], dataloader.valid_y, c='r', label='Validation Set')
-        plt.scatter(dataloader.test_x[:, 1], dataloader.test_y, c='b', label='Test Set')
+        plt.plot(dataloader.alldata_x[:, 1], dataloader.alldata_x.dot(model.params), c='b', label='Model')
+        """plt.scatter(dataloader.train_x[:, 1], dataloader.train_y, c='y', label='Train Set')
+        plt.scatter(dataloader.valid_x[:, 1], dataloader.valid_y, c='r', label='Validation Set')"""
+        plt.scatter(dataloader.test_x[:, 1], dataloader.test_y, c='g', label='Test Set')
         plt.grid()
         plt.legend(loc='best')
         plt.xlabel('X')

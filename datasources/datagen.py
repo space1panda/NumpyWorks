@@ -8,14 +8,14 @@ class LinearDataGenerator:
         data_x = lin_formula_input(ds_len)
         self.data_y = lin_formula_output(data_x)
         data_x = data_x / np.max(data_x)
-        self.data_x = np.power(data_x, range(poly_order))
+        self.alldata_x = np.power(data_x, range(poly_order))
+        order = np.random.permutation(ds_len)
+        self.data_x = self.alldata_x[order]
+        self.data_y = self.data_y[order]
         self.test_x = self.data_x[int(ds_len - ds_len * test_split):]
         self.test_y = self.data_y[int(ds_len - ds_len * test_split):]
-        x = self.data_x[:int(ds_len - ds_len * test_split)]
-        y = self.data_y[:int(ds_len - ds_len * test_split)]
-        order = np.random.permutation(len(x))
-        self._x = x[order]
-        self._y = y[order]
+        self._x = self.data_x[:int(ds_len - ds_len * test_split)]
+        self._y = self.data_y[:int(ds_len - ds_len * test_split)]
 
     def __getitem__(self, item):
         return self._x[item], self._y[item]
