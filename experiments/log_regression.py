@@ -63,7 +63,6 @@ def main(config, ext_args):
 
         plt.show()
 
-
     return model
 
 default_config = "log_config.json"

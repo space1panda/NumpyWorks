@@ -1,17 +1,17 @@
 {"transfer":false,
  "load_path":"",
  "save_path":"binlog_model.pickle",
-  "datagen": {"ds_len": 10000,
+  "datagen": {"ds_len": 1000,
                     "num_features":2,
                     "test_split" : 0.1,
                     "class_split_factor":0.4,
-                    "data_dist":20000
+                    "data_dist":200
   },
- "dataloader":{"bs": 100,
+ "dataloader":{"bs": 10,
               "valid_split": 0.1
               },
  "trainer":{"lr" : 0.01,
-            "num_epochs" : 5000,
+            "num_epochs" : 10000,
             "each" :1000,
             "decay_rate" : 1
            }
