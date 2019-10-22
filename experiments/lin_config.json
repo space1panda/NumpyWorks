@@ -1,15 +1,16 @@
 {"transfer":false,
  "load_path":"",
  "save_path":"lin_model.pickle",
- "poly_level" : 200,
- "dataloader":{"ds_len": 5000,
-              "bs": 20,
-              "test_split" : 0.1,
+  "datagen": {"ds_len": 1000,
+                    "num_features":5,
+                    "test_split" : 0.1
+  },
+ "dataloader":{"bs": 20,
               "valid_split": 0.1
               },
- "trainer":{"lr" : 0.0001,
-            "num_epochs" : 10000,
-            "each" :1000,
+ "trainer":{"lr" : 0.01,
+            "num_epochs" : 50000,
+            "each" :5000,
             "decay_rate" : 1
            }
 
