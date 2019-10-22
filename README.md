@@ -24,18 +24,10 @@ and update lambda functions;
     -p - run with Matplot graphs (ex. -p true)       
 
 #
-![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/model_small.png)
-##### Figure 1: 
-*The model does just fine predicting relatively small amount of data behavior with 200 features*
-#
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg2.png)
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
+##### Figure 1: Exemplary Results - n-feature polynoms issue. Even though the model trained successfully, it cannot generalize effective enough accross all feature sets 
 
-
-![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/model_big.png)
-##### Figure 2: 
-*Even though we are using absolutely same data distribution for test set, regression is getting worse at actual predicting as we increase the amount of fed data (amount of features).* 
-*This indicates that the linear approach for n-feature datasets is not effective enough to generalize on big data. We might need to add more "layers" of hypothesis calculation to normalize our data better, which makes total sense for applying basic feed forward neural network with 1+ non-linear levels*
-
-#
 ###### Next version:
 
 - Run training from docker image;
