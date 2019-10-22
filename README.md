@@ -40,3 +40,29 @@ and update lambda functions;
 
 ###### Solving linear classification problem on generated/real data using single perceptron / deep learning model with sigmoid ###### activation.
 
+###### Version 1.0 :
+
+- Linear data is being generated automatically. In the first version only "1-neuron" model is applied - meaning, we are not applying hidden activation layers;
+#
+
+    git clone NumpyWorks; python experiments/log_regression.py
+    
+    Init arguments:
+    
+    -c - change configuration file (ex. -c "myconfig.json");
+    -p - run with Matplot graphs (ex. -p true) 
+    
+
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg2.png)
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
+##### Figure 1: Exemplary Results - solving the linear classification task
+   
+ ###### Next version:
+
+- Run training from docker image;
+- Image object dataset to train solution with real datasets;
+- Using feedforward deep Neural Net as an alternative model;
+#
+#
+
+
