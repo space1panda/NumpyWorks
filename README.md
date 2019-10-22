@@ -53,8 +53,7 @@ and update lambda functions;
     -p - run with Matplot graphs (ex. -p true) 
     
 
-![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg2.png)
-![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linregfixed.png)
+![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/logreg.png)
 ##### Figure 1: Exemplary Results - solving the linear classification task
    
  ###### Next version:
