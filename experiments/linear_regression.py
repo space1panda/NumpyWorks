@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import json
 import argparse
 import pickle
-import numpy as np
 from models.single import LinearRegression
 from datasources.datagen import PolynomLinDataGenerator
 from datasources.batchloaders import LinBatchLoader
@@ -64,7 +63,7 @@ def main(config, ext_args):
 
     return model
 
-default_config = "lin_config.json"
+default_config = "experiments/lin_config.json"
 
 if __name__ == '__main__':
 

@@ -42,7 +42,7 @@ class PolynomLinDataGenerator(GenericDataGenerator):
 
 
 class BinClassDataGenerator(GenericDataGenerator):
-    def __init__(self, ds_len,  test_split, class_split_factor, data_dist, num_features=2):
+    def __init__(self, ds_len, num_features,  test_split, class_split_factor, data_dist):
         """
         :param class_split_factor: split percentage of 2 classes
         :param data_dist: dataset breadth across X-axis

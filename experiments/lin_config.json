@@ -1,6 +1,6 @@
 {"transfer":false,
  "load_path":"",
- "save_path":"lin_model.pickle",
+ "save_path":"experiments/lin_model.pickle",
   "datagen": {"ds_len": 1000,
                     "num_features":5,
                     "test_split" : 0.1

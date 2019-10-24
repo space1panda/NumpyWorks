@@ -53,13 +53,21 @@ def main(config, ext_args):
         ax.autoscale(False)
         x_vals = np.array(ax.get_xlim())
         y_vals = intercept + (slope * x_vals)
-        plt.plot(x_vals, y_vals, c="b")
+        plt.plot(x_vals, y_vals, c="b", label="Model")
+        plt.legend(loc='best')
+        plt.xlabel('Param1')
+        plt.ylabel('Param2')
+        plt.title(f"Model Performance")
 
 
         plt.figure()
 
-        plt.plot(train_losses, 'b')
-        plt.plot(valid_losses, 'r')
+        plt.plot(train_losses, 'b', label="Train loss")
+        plt.plot(valid_losses, 'r', label="Valid loss")
+        plt.legend(loc='best')
+        plt.xlabel('Epochs')
+        plt.ylabel('Loss')
+        plt.title(f"Optimization")
 
         plt.show()
 
