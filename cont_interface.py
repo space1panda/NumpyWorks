@@ -5,9 +5,7 @@ from experiments import linear_regression, log_regression
 
 choice = os.environ["EXP"]
 plots = os.environ["PLOT"]
-config_default_dir = "experiments/"
-config_file = os.environ["CONFIG"]
-config_path = "".join([config_default_dir,config_file])
+config_path = os.environ["CONFIG_FILE"]
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description='Training configuration:')
     parser.add_argument('-c', '--config', default=config_path, type=str,

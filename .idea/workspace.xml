@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dffd4c25-dbee-487a-9d83-741ec934a456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cont_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/datagen.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/datagen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasources/testings.py" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/testings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/binlog_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/binlog_model.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/lin_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/lin_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/log_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/log_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/log_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/log_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cont_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/cont_interface.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571778396744</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- Adding dockerfile and configuring for container usage">
+      <created>1571929247973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571929247973</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -338,6 +335,7 @@
     <MESSAGE value="- Logistic Regression model 1.0 added" />
     <MESSAGE value=" - Fixed test set shuffling issue in LinReg model" />
     <MESSAGE value="- Refactoring and fixing errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Refactoring and fixing errors" />
+    <MESSAGE value="- Adding dockerfile and configuring for container usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Adding dockerfile and configuring for container usage" />
   </component>
 </project>
