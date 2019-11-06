@@ -1,6 +1,4 @@
-{"transfer":false,
- "load_path":"",
- "save_path":"experiments/lin_model.pickle",
+{"save_path":"tmp/linreg_model.pickle",
   "datagen": {"ds_len": 1000,
                     "num_features":5,
                     "test_split" : 0.1
@@ -9,7 +7,7 @@
               "valid_split": 0.1
               },
  "trainer":{"lr" : 0.01,
-            "num_epochs" : 50000,
+            "num_epochs" : 10000,
             "each" :5000,
             "decay_rate" : 1
            }

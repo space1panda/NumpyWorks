@@ -1,9 +1,11 @@
 FROM python:3.6
 
-WORKDIR /srv
-ADD requirements.txt /srv
+WORKDIR /src
+ADD requirements.txt /src
 RUN pip install -r requirements.txt
-ADD . /srv
+ADD . /src
+RUN mkdir tmp
 
-CMD ["python", "cont_interface.py"]
+
+ENTRYPOINT ["python", "cont_interface.py"]
 
