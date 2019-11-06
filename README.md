@@ -46,7 +46,7 @@ and update lambda functions;
 
 ###### Solving linear classification problem on generated/real data using single perceptron / deep learning model with sigmoid ###### activation.
 
-###### Version 1.0 :
+###### Version 2.0 :
 
 - Linear data is being generated automatically. In the first version only "1-neuron" model is applied - meaning, we are not applying hidden activation layers;
 #
