@@ -1,6 +1,6 @@
 # NumPyWorks
 
-### The library contains my works on ml/dl with Python3 using pure numpy:
+### The library contains my works on ml/dl with Python3 using numpy/scikit-learn/etc.:
 #
 #
 
@@ -10,7 +10,7 @@
 ###### approach for developing the understanding of how simple regression can solve multifeature (more realistic) tasks. 
 ###### Many thanks to blog by Davi Frossard at https://www.cs.toronto.edu/~frossard/topics/multiple-linear-regression/. 
 #
-###### Version 1.0 :
+###### Version 2.0 :
 
 - Linear data is being generated automatically. If you want to update refer to utils.data_transforming.py
 and update lambda functions;
@@ -18,10 +18,17 @@ and update lambda functions;
 
     git clone NumpyWorks; python experiments/linear_regression.py
     
-    Init arguments:
     
-    -c - change configuration file (ex. -c "myconfig.json");
-    -p - run with Matplot graphs (ex. -p true)       
+- Run from docker container: 
+#
+    Download the expemplary config files from the project
+    Prepare the dir where you will be saving results and from which you will provide your own project configuration
+    
+    Run:
+    
+    docker pull spacepanda/numpy_nn_fw;
+    docker run -v $(pwd)/your/local/path/:/src/tmp/ --user $(id -u):$(id -g) -it --rm spacepanda/numpy_nn_fw
+
 
 #
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/linreg2.png)
@@ -30,7 +37,6 @@ and update lambda functions;
 
 ###### Next version:
 
-- Run training from docker image;
 - Datasource object to train solution with real datasets;
 - Using feedforward deep Neural Net as an alternative model;
 #
@@ -47,18 +53,25 @@ and update lambda functions;
 
     git clone NumpyWorks; python experiments/log_regression.py
     
-    Init arguments:
+- Run from docker container: 
+#
+    Download the expemplary config files from the project
+    Prepare the dir where you will be saving results and from which you will provide your own project configuration
     
-    -c - change configuration file (ex. -c "myconfig.json");
-    -p - run with Matplot graphs (ex. -p true) 
+    Run:
     
+    docker pull spacepanda/numpy_nn_fw;
+    docker run -v $(pwd)/your/local/path/:/src/tmp/ --user $(id -u):$(id -g) -it --rm spacepanda/numpy_nn_fw
+
+
+#
+
 
 ![alt text](https://github.com/space1panda/NumpyWorks/blob/master/assets/logreg.png)
 ##### Figure 1: Exemplary Results - solving the linear classification task
    
  ###### Next version:
 
-- Run training from docker image;
 - Image object dataset to train solution with real datasets;
 - Using feedforward deep Neural Net as an alternative model;
 #
