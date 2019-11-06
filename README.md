@@ -14,14 +14,9 @@
 
 - Linear data is being generated automatically. If you want to update refer to utils.data_transforming.py
 and update lambda functions;
-#
-
-    git clone NumpyWorks; python experiments/linear_regression.py
-    
-    
 - Run from docker container: 
 #
-    Download the expemplary config files from the project
+    Use the expemplary config files from the project
     Prepare the dir where you will be saving results and from which you will provide your own project configuration
     
     Run:
@@ -49,10 +44,6 @@ and update lambda functions;
 ###### Version 2.0 :
 
 - Linear data is being generated automatically. In the first version only "1-neuron" model is applied - meaning, we are not applying hidden activation layers;
-#
-
-    git clone NumpyWorks; python experiments/log_regression.py
-    
 - Run from docker container: 
 #
     Download the expemplary config files from the project
