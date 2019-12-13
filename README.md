@@ -4,7 +4,7 @@
 #
 #
 
-#### 1. Polynomial Linear Regression:
+#### 1. Multi Regression:
 
 ###### This is a very basic problem of solving the data trend line, however in this case we are using polynomial 
 ###### approach for developing the understanding of how simple regression can solve multifeature (more realistic) tasks. 
